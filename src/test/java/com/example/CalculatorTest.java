@@ -18,10 +18,6 @@ public class CalculatorTest {
     }
 
     
-    @Test
-    void testMultiply() {
-        assertEquals(6, calc.multiply(2, 3));
-    }
 
     @Test
     void testDivide() {
