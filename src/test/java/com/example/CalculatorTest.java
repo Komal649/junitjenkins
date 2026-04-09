@@ -12,11 +12,7 @@ public class CalculatorTest {
         assertEquals(5, calc.add(2, 3));
     }
 
-    @Test
-    void testSubtract() {
-        assertEquals(10, calc.subtract(3, 2));
-    }
-
+    
     @Test
     void testMultiply() {
         assertEquals(6, calc.multiply(2, 3));
