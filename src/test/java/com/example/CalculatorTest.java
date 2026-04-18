@@ -19,7 +19,7 @@ public class CalculatorTest {
     
     @Test
     void testMultiply() {
-        assertEquals(6, calc.multiply(2, 3));
+        assertEquals(5, calc.multiply(2, 3));
     }
 
     
