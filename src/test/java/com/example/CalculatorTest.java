@@ -21,8 +21,11 @@ public class CalculatorTest {
     void testMultiply() {
         assertEquals(6, calc.multiply(2, 3));
     }
-
     
+    @Test
+    void testDivide() {
+        assertEquals(2, calc.divide(6, 3));
+    }
 
     @Test
     void testDivideByZero() {
